@@ -1,0 +1,82 @@
+/* 注文取り消しボタン */
+div#payment .checkout_reset_button {
+    text-align: right;
+    margin-top: -8px;
+}
+
+div#payment .checkout_reset_button a.button.alt {
+    color: #333 !important;
+    background-color: #fff !important;
+    border: 1px solid #444 !important;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 480px) {
+div#payment .checkout_reset_button {
+    margin-top: -30px;
+}
+}
+
+/* 注文後のキャンセル part */
+h3#order_about_cancel_message{
+	font-size:20px;
+	
+}
+
+.for_digital_item_message a {
+    color: #333 !important;
+}
+
+.order_before_payment_message .for_digital_item_message{
+	border:1px solid #ccc;
+	border-radius:8px;
+	margin-top:13px;
+	margin-bottom:13px;
+	padding: 6px 4px;
+}
+
+.order_before_payment_message p,
+.order_before_payment_message li{
+	font-size:13px;
+	}
+
+/*
+ul.notice_order_before_payment_message{
+	display:flex;
+    flex-wrap: wrap;
+
+}
+
+*/
+@media screen and (min-width: 768px){
+    .sp {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .notice_order_before_payment_message .link {
+      padding-left: 40px;
+    }
+  }
+ul.notice_order_before_payment_message li{
+    font-size:13px !important;
+    margin-left:16px;
+}
+
+
+/* プライバシーポリシー パート調整 */
+.woocommerce-privacy-policy-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.woocommerce-privacy-policy-text a{
+	color:#333 !important;
+	}
+@media screen and (min-width: 1023px) {
+.woocommerce-privacy-policy-text {
+    text-align: center;
+   }
+}
+
